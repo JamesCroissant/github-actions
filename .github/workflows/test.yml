@@ -2,9 +2,9 @@ name: Run Jest
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   test:
@@ -20,5 +20,5 @@ jobs:
       - name: Install Node packages
         run: npm install
 
-      - name: Run Jest
+      - name: Run Jes
         run: npm test
